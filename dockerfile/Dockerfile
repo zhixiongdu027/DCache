@@ -1,4 +1,4 @@
-FROM tarscloud/base-compiler 
+FROM ubuntu:20.04 
 
 # RUN mkdir -p /data
 # COPY . /data
