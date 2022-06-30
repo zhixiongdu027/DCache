@@ -27,4 +27,4 @@ jobs:
       - name: Buildx Config
         run: |
           cat dockerfile/Dockerfile.config
-          docker buildx build . -t test -f dockerfile/Dockerfile.config --platform linux/arm64,linux/amd64 --push
+          docker buildx build . -t test -f dockerfile/Dockerfile.config --platform linux/arm64,linux/amd64 --cache-from=type=local --push
