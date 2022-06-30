@@ -1,7 +1,7 @@
 FROM ubuntu:20.04 
 
 # RUN mkdir -p /data
-# COPY . /data
+COPY . /data
 # RUN cd /data \
 #     && mkdir -p build   \
 #     && cd build    \
